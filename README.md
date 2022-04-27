@@ -1,11 +1,13 @@
-#compile command:
+##compile command:
 " gcc my_httpserver.c tdate_parse.c match.c -o my_http -I ./ "
-#how to run the project
-"./my_http -p 8001"
-#how to test on browser
-enter "<linux IP>:8001"
 
-#note
+##how to run the project
+"./my_http -p 8001"
+
+##how to test on browser
+enter "yourip:8001"
+
+##note
 support linux only. currently support mime type listed below
 if you want more support, modify this array:
 static struct mime_entry typ_tab[] = {
